@@ -8,7 +8,7 @@ tags: [IA,SPEC]
 
 # Ejemplo de context engineering utilizando SPEC
 
-##Contenido del proyecto
+## Contenido del proyecto
 ### agents.md
 **Configura los roles, las capacidades y los permisos de las IAs que trabajan en el repositorio.**
 ### constitucion.md
