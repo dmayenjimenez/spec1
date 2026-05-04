@@ -1,6 +1,6 @@
 ---
 title: "Ejemplo SPEC"
-author: Miguel Nuñez"
+author: "Miguel Nuñez"
 date: "28/04/26"
 category: "IA content engineering"
 tags: [IA,SPEC]
