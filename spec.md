@@ -38,11 +38,13 @@ Tabla contacto en base de datos MySQL.
 5. El sistema comprueba si existe un contacto con el mismo telefono
 6. El sistema el contacto en la base de datos y te muestra el id con los datos del contacto
 
-** Flujo Alternativo A ** (validacion falla)
+**Flujo Alternativo A** (validacion falla)
 - El sistema muestra un mensaje de error y solicita corregir el error
-** Flujo Alternativo B ** (validacion correcta)
+
+**Flujo Alternativo B** (validacion correcta)
 - El sistema inserta los datos en una base de datos
-** Flujo Alternativo C ** (contacto duplicado)
+
+**Flujo Alternativo C** (contacto duplicado)
 - El sistema nos advierte de que existe el contacto y pide confirmacion de guardado
 
 ### CU-02: Ver contacto
@@ -52,11 +54,13 @@ Tabla contacto en base de datos MySQL.
 4. El sistema comprueba si existe coincidencias con un LIKE en name, surname, tel1
 5. El sistema muestra todos los resultados coincidentes con ese nombre
 
-** Flujo Alternativo A ** (validacion falla)
+**Flujo Alternativo A** (validacion falla)
 - El sistema muestra un mensaje de error y solicita corregir el error
-** Flujo Alternativo B ** (validacion correcta)
+
+**Flujo Alternativo B** (validacion correcta)
 - El sistema comprueba los datos en la base de datos
-** Flujo Alternativo C ** (contacto duplicado)
+
+**Flujo Alternativo C** (contacto duplicado)
 - El sistema nos advierte de que existe el contacto y pide confirmacion de guardado
 
 ### CU-03: Eliminar contacto
